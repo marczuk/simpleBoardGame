@@ -4,7 +4,6 @@ import boardgame.boards.Board;
 import boardgame.boards.DefaultBoard;
 import boardgame.enums.Direction;
 import boardgame.pieces.DefaultPiece;
-import boardgame.pieces.Piece;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

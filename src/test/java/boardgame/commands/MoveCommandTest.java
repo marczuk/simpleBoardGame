@@ -22,7 +22,6 @@ public class MoveCommandTest {
 
     @Test
     public void executeMoveCommandPieceChangePositionVertical() {
-
         //when
         command.execute(board);
 

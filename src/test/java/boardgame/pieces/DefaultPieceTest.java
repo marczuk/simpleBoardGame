@@ -1,6 +1,5 @@
 package boardgame.pieces;
 
-import boardgame.boards.DefaultBoard;
 import boardgame.enums.Direction;
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +11,6 @@ public class DefaultPieceTest {
         //given
         DefaultPiece board = new DefaultPiece();
 
-        //when
         //then
         assertEquals(0, board.getHorizontalPosition());
         assertEquals(0, board.getVerticalPosition());

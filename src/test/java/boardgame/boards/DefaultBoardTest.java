@@ -13,11 +13,9 @@ public class DefaultBoardTest {
         DefaultPiece piece = new DefaultPiece();
         DefaultBoard board = new DefaultBoard(piece);
 
-        //when
         //then
         assertEquals(5, board.getHorizontalSize());
         assertEquals(5, board.getVerticalSize());
         assertEquals(piece, board.getPiece());
-
     }
 }

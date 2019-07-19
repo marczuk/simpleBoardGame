@@ -12,7 +12,7 @@ public abstract class BoardGame {
         this.board = board;
         this.commandFactory = commandFactory;
     }
-    
+
     public String executeCommands(String commands) {
         //iterate on chars in string
 
